@@ -81,4 +81,3 @@ if st.button("Refine My Idea"):
 
 # Footer
 st.markdown("---")
-st.markdown("Powered by [Groq Llama](https://groq.com) and Streamlit 🚀")
