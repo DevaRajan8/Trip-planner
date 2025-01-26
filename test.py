@@ -26,13 +26,13 @@ def generate_response(prompt, max_tokens=1000, temperature=0.7):
 
 # Page configuration
 st.set_page_config(
-    page_title="AI Travel Planner with Groq",
+    page_title="AI Travel Planner",
     page_icon="🌍",
     layout="wide"
 )
 
 # Application title
-st.title("🌍 AI-Powered Travel Planner with Groq Llama")
+st.title("🌍 AI-Powered Travel Planner ")
 
 # Step 1: Gather user inputs
 st.header("Tell us about your trip")
@@ -65,7 +65,7 @@ if st.button("Plan My Trip"):
         st.text_area("Your Itinerary", value=itinerary, height=300)
 
 # Flexible Inputs (Bonus Challenge)
-st.header("Flexible Inputs (Bonus Challenge)")
+st.header("Bonus Challenge")
 flex_input = st.text_input("Enter a vague trip idea (e.g., 'I want a mix of famous and offbeat places').")
 if st.button("Refine My Idea"):
     with st.spinner("Refining your trip idea..."):
