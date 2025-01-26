@@ -4,7 +4,7 @@ import os
 
 # Groq API details
 API_URL = "https://api.groq.com/openai/v1/chat/completions"
-API_KEY = os.getenv("GROQ_API_KEY") # Replace with your Groq API key
+API_KEY = "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" # Replace with your Groq API key
 
 # Function to interact with Groq Llama model
 def generate_response(prompt, max_tokens=1000, temperature=0.7):
