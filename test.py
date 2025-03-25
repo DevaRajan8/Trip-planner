@@ -34,7 +34,7 @@ def generate_response(prompt, max_tokens=1000, temperature=0.7):
 # STREAMLIT APPLICATION - AI Travel Planner
 # =============================================
 st.set_page_config(page_title="AI Travel Planner", page_icon="🌍", layout="wide")
-st.title("🌍 AI Travel Planner - AI/ML Internship Assignment")
+st.title("🌍 AI Travel Planner ")
 
 st.markdown("This application guides travelers by first refining user inputs, then suggesting activities and finally generating a personalized day-by-day itinerary.")
 
