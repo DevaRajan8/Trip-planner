@@ -144,7 +144,7 @@ Present the itinerary in a clear, structured format with each day labeled.
 st.markdown("---")
 st.markdown("### About This Application")
 st.markdown("""
-This AI-powered travel planner was built as part of an AI/ML Internship Assignment.  
+This AI-powered travel planner   
 **Prompt System Documentation:**  
 - **Input Refinement Prompt:** Refines and consolidates user inputs to handle any vague details.  
 - **Activity Suggestions Prompt:** Uses the refined details to generate a list of attractions and activities that match the user’s preferences.  
