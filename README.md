@@ -1,4 +1,4 @@
-```md
+
 # 📝 OCR Web App using Streamlit & EasyOCR
 
 This is a simple Optical Character Recognition (OCR) web app built using **Streamlit** and **EasyOCR**. It allows users to upload an image and extracts the text from it using OCR.
@@ -16,7 +16,6 @@ Install the required packages:
 
 ```bash
 pip install -r requirements.txt
-```
 
 ## ▶️ How to Run
 
