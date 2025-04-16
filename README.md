@@ -21,11 +21,8 @@ pip install -r requirements.txt
 
 Run the app using Streamlit:
 
-```bash
-streamlit run your_script_name.py
+streamlit run ocr-assign.py
 ```
-
-Replace `your_script_name.py` with your actual Python file (e.g., `ocr-assign.py` or `trial.py`).
 
 ## 📂 Folder Structure
 
