@@ -16,11 +16,11 @@ Install the required packages:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## ▶️ How to Run
-
-Run the app using Streamlit:
-
+##Run the app using Streamlit:
+```bash
 streamlit run ocr-assign.py
 ```
 
