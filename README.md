@@ -1,49 +1,52 @@
+```md
+# 📝 OCR Web App using Streamlit & EasyOCR
 
-## Overview
-This project is a personalized travel itinerary generator built using Streamlit and Groq's Llama 3.1 (8B) API. Users can input their travel preferences, and the system generates a detailed, day-by-day itinerary tailored to their needs. It also refines vague inputs into precise travel plans.
+This is a simple Optical Character Recognition (OCR) web app built using **Streamlit** and **EasyOCR**. It allows users to upload an image and extracts the text from it using OCR.
 
-## Features
-- Collects user preferences (destination, budget, interests, etc.).
-- Generates detailed, personalized travel itineraries.
-- Handles vague or incomplete inputs by refining them into actionable queries.
-- Deployed using Streamlit for easy access.
+## 🚀 Features
 
-## How It Works
-1. The app gathers user inputs through a simple interface.
-2. It sends the prompts to the Groq API using the Llama 3.1 model.
-3. The API processes the input and generates a detailed travel plan.
-4. Users receive a multi-day itinerary with activities, dining suggestions, and timing.
+- Upload an image through the web interface
+- Extract and display text using EasyOCR
+- Highlight detected text regions using bounding boxes
+- Display results directly in the browser
 
-## Installation
-To run the project locally:
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd your-repo-name
-   ```
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the Streamlit app:
-   ```bash
-   streamlit run travel_planner_groq.py
-   ```
+## 🔧 Requirements
 
-## Hosted Application
-The application is deployed and accessible online:
-[Deployed App Link](https://testpy-tj9eg9lxqqf28gd6cdn65x.streamlit.app/)
+Install the required packages:
 
-## Files
-- **`travel_planner_groq.py`**: Main application code.
-- **`requirements.txt`**: Python dependencies for the project.
-- **`prompts_documentation.pdf`**: Detailed prompts, inputs, and outputs documentation.
+```bash
+pip install -r requirements.txt
+```
 
-## Contact
-For any questions or issues, feel free to contact:
-- **Email**:**devarajan8.official@gmail.com**
+## ▶️ How to Run
+
+Run the app using Streamlit:
+
+```bash
+streamlit run your_script_name.py
+```
+
+Replace `your_script_name.py` with your actual Python file (e.g., `ocr-assign.py` or `trial.py`).
+
+## 📂 Folder Structure
+
+```
+├── trial.py
+├── requirements.txt
+└── README.md
+```
+
+## 🛠️ Built With
+
+- [Streamlit](https://streamlit.io/) - For the interactive web UI
+- [EasyOCR](https://github.com/JaidedAI/EasyOCR) - For OCR text extraction
+- [OpenCV](https://opencv.org/) - For drawing bounding boxes
+- [Pillow](https://pillow.readthedocs.io/en/stable/) - For image handling
+
+## ✍️ Author
+
+Devarajan S – [GitHub](https://github.com/DevaRajan8)
 
 ---
+
+```
